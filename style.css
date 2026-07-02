@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background-image: url(https://www.globalsuitesolutions.com/wp-content/uploads/2021/01/gs-sector-telecomunicaciones.jpg);
+    background-repeat: none;
+    background-position: fixed;
+    background-size: 100%;
+}
+
+/*Encabezado*/
+header{
+    background-color: rgb(1, 96, 5);
+    margin: 0;
+    padding: 0;
+}
+
+body h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    color: aliceblue;
+    font-size: 51pt;
+}
+h2{
+    font-size: 40pt;
+    font-family: fantasy;
+    color: aliceblue;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.planes{
+    background-color: rgb(255, 255, 255);
+    margin: 1% 20% 4% 20%;
+    padding: 5% 0%;
+    border-radius: 10px;
+}
+
+/*Edición de tabla*/
+table{
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 30px 0px;
+    
+}
+.encabezados-tabla{
+    background-color: rgb(22, 103, 103);
+
+
+}
+.encabezados-tabla td{
+    transition: all 300ms ease;/*Transción simple*/
+}
+.encabezados-tabla td:hover{
+    transform: scale(1.1);
+    background: #308f30;
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.5);
+}
+.encabezados-tabla td{
+    border: none;
+}
+th, td{
+    border-bottom: 3px rgb(91, 250, 173);
+    border-style: outset;
+    border-radius: 10PX;
+}
+
+.tabla-principal td{
+    width: 215px;
+}
+dd{
+    margin: 0;
+    color: rgb(33, 88, 50);
+}
+
+/*Texto*/
+.titulo-plan{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27pt;
+    color: rgb(178, 255, 178);
+}
+.precio-plan{
+    font-family: "Open sans";
+    font-size: 35px;
+    color: rgb(40, 3, 114);
+    border: none;
+    padding: 10px 0px;
+}
+.encabezados-tabla2 td{
+    transition: all 300ms ease;/*Transción simple*/
+}
+.encabezados-tabla2 td:hover{
+    transform: scale(1.1);
+    background: #96f096;
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.5);}
+
+button{
+    background-color: #96f096;
+    color: rgb(4, 60, 39);
+    font-size: 15pt;
+    border: none;
+    cursor: pointer;
+}
+.botones{
+    background-color: #96f096;
+}
+.botones td{
+    transition: all 300ms ease;/*Transción simple*/
+}
+.botones td:hover{
+    transform: scale(1.1);
+    background: #96f096;
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.5);}
+
+
+/*Pie de página*/
+footer{
+    width: 100%; /*Se ocupa el 100% de la anchura*/
+    position: fixed;/*Anclamos el footer*/
+    bottom: 0;/*Se coloca al final*/
+    background-color: rgb(1, 96, 5);
+}
+footer h2{
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
